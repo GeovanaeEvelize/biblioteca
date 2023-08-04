@@ -17,8 +17,15 @@ body {
             align-items: center;
             position: relative;
             }
-            .lista-menu {
-                display: none;
-                position: absolute;
-                top: 100%;
-                }
+.lista-menu__titulo,
+.lista-menu__item {
+padding: 1em;
+background-color: var(--branco);
+}
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    }
+
+    
