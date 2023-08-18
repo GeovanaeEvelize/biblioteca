@@ -1,30 +1,19 @@
-:root  {
-    --cor-de-fundo:#3f3f3f;
-}
-body {
-   background-color: var(--cor-de-fundo)
-}
-.lista-menu {
-    display: none;
-    }
-    .container__botao:checked ~ .lista-menu {
-        display: block;
-        }
-        .cabeçalho {
-            background-color: var(--branco);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
-            }
-.lista-menu__titulo,
-.lista-menu__item {
-padding: 1em;
-background-color: var(--branco);
-}
-:root {
-    --cor-de-fundo: #3f3f3f;
-    --branco: #ffffff;
-    --laranja: #EB9B00;
-    }
+@import url(styles/header.css);
 
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFF;
+    --amarelo: #fecd2f;
+    --roxo: #C75EEB;      
+    --fonte-roboto: 'Roboto', sans-serif;
+    --fonte-principal: 'Poppins', sans-serif; 
+    --fonte-secundaria:  'Josefin Sans', sans-serif;
+    --fonte-secundaria-normal: 400;
+    --fonte-secundaria-bold: 700;
+  }
+    
+body{
+    background-color: var(--cor-de-fundo);    
+    font-size: 16px;
+    font-weight: 400;
+}
